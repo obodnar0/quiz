@@ -1,0 +1,14 @@
+{
+  "name": "quizserver",
+  "version": "1.0.0",
+  "description": "root server node for quiz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
