@@ -16,63 +16,63 @@ export default function GamesList({ path }: { path: string }) {
     <Card containerStyle={styles.gameCard}>
         <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
             <Text style={{fontSize: 50}}>
-            mafia
+            MAFIA
             </Text>
         </Card.Image>
     </Card>
         <Card containerStyle={styles.gameCard}>
             <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
                 <Text style={{fontSize: 50}}>
-                mafia
+                MAFIA
                 </Text>
             </Card.Image>
         </Card>
         <Card containerStyle={styles.gameCard}>
             <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
                 <Text style={{fontSize: 50}}>
-                mafia
+                MAFIA
                 </Text>
             </Card.Image>
         </Card>
         <Card containerStyle={styles.gameCard}>
             <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
                 <Text style={{fontSize: 50}}>
-                mafia
+                MAFIA
                 </Text>
             </Card.Image>
         </Card>
         <Card containerStyle={styles.gameCard}>
             <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
                 <Text style={{fontSize: 50}}>
-                mafia
+                MAFIA
                 </Text>
             </Card.Image>
         </Card>
         <Card containerStyle={styles.gameCard}>
             <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
                 <Text style={{fontSize: 50}}>
-                mafia
+                MAFIA
                 </Text>
             </Card.Image>
         </Card>
         <Card containerStyle={styles.gameCard}>
             <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
                 <Text style={{fontSize: 50}}>
-                mafia
+                MAFIA
                 </Text>
             </Card.Image>
         </Card>
         <Card containerStyle={styles.gameCard}>
             <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
                 <Text style={{fontSize: 50}}>
-                mafia
+                MAFIA
                 </Text>
             </Card.Image>
         </Card>
         <Card containerStyle={styles.gameCard}>
             <Card.Image style={styles.cardImage} source={require('../assets/images/mafia-logo.jpg')}>
                 <Text style={{fontSize: 50}}>
-                mafia
+                MAFIA
                 </Text>
             </Card.Image>
         </Card>
@@ -91,10 +91,6 @@ const styles = StyleSheet.create({
         flex: 1,
         width: width
     },
-  getStartedContainer: {
-    alignItems: 'center',
-    marginHorizontal: 50,
-  },
   gameCard: {
       borderRadius: 10,
       margin: 10,
@@ -102,32 +98,8 @@ const styles = StyleSheet.create({
       padding: 0
   },
   cardImage: {
-    flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10
-  },
-  homeScreenFilename: {
-    marginVertical: 7,
-  },
-  codeHighlightContainer: {
-    borderRadius: 3,
-    paddingHorizontal: 4,
-  },
-  getStartedText: {
-    fontSize: 17,
-    lineHeight: 24,
-    textAlign: 'center',
-  },
-  helpContainer: {
-    marginTop: 15,
-    marginHorizontal: 20,
-    alignItems: 'center',
-  },
-  helpLink: {
-    paddingVertical: 15,
-  },
-  helpLinkText: {
-    textAlign: 'center',
-  },
+  }
 });
