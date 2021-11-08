@@ -102,7 +102,9 @@ const styles = StyleSheet.create({
       padding: 0
   },
   cardImage: {
-      justifyContent:'center',
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
     borderRadius: 10
   },
   homeScreenFilename: {
